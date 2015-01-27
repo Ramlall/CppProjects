@@ -1,0 +1,22 @@
+﻿Build started 12/12/2014 1:32:05 AM.
+     1>Project "C:\work\Letter Capitalization\Letter Capitalization.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Letter Capitalization.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\work\letter capitalization\main.cpp(25): warning C4717: 'main' : recursive on all control paths, function will cause runtime stack overflow
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\Letter Capitalization\Debug\Letter Capitalization.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Letter Capitalization.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\Letter Capitalization\Debug\Letter Capitalization.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\Letter Capitalization\Debug\Letter Capitalization.lib" /MACHINE:X86 Debug\Main.obj
+         LINK : C:\work\Letter Capitalization\Debug\Letter Capitalization.exe not found or not built by the last incremental link; performing full link
+         Letter Capitalization.vcxproj -> C:\work\Letter Capitalization\Debug\Letter Capitalization.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\work\Letter Capitalization\Debug\Letter Capitalization.exe;#1" /manifest "Debug\Letter Capitalization.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Letter Capitalization.unsuccessfulbuild".
+         Touching "Debug\Letter Capitalization.lastbuildstate".
+     1>Done Building Project "C:\work\Letter Capitalization\Letter Capitalization.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.19
